@@ -1,7 +1,7 @@
 const data = {
   msg: 'hello Vue.js!'
 }
-const changeTitle = (title) => {
+const changeTitle = title => {
   data.msg = title
 }
 export default {
